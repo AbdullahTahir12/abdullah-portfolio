@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-import Projects from "../../api/project";
+import Projects from "../../pages/api/project";
 import ProjectSingle from "../ProjectSingle/ProjectSingle";
 
 const settings = {
