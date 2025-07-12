@@ -21,11 +21,28 @@ export default function Home() {
         <title>Abdullah | Full‑Stack Web Developer</title>
         <meta
           name="description"
-          content="Full‑stack developer specializing in React.js, Node.js, and Next.js — crafting responsive, secure, and high-performance web and app solutions."
+          content="Crafting responsive, secure web & mobile apps with React.js, Node.js, Next.js."
         />
-        <link
-          rel="canonical"
-          href="https://abdullah-portfolio-du9e.vercel.app/"
+        <meta
+          property="og:title"
+          content="Abdullah | Full‑Stack Web Developer"
+        />
+        <meta
+          property="og:description"
+          content="Crafting responsive, secure web & mobile apps with React.js, Node.js, Next.js."
+        />
+        <meta
+          property="og:image"
+          content="https://abdullah-portfolio-du9e.vercel.app/og-image.png"
+        />
+        <meta
+          property="og:url"
+          content="https://abdullah-portfolio-du9e.vercel.app/"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content="https://abdullah-portfolio-du9e.vercel.app/og-image.png"
         />
       </Head>
 
