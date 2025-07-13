@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-scroll";
 import CtaSection from "../ctaSection/ctaSection";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMedium } from "@fortawesome/free-brands-svg-icons";
 
 const SubmitHandler = (e) => {
   e.preventDefault();
@@ -28,30 +30,59 @@ const Footer = (props) => {
                 <div className="social-icons">
                   <ul>
                     <li>
-                      <Link to="/">
+                      <a
+                        href="https://www.facebook.com/share/1ES1VxA7dR/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          window.open(
+                            e.currentTarget.href,
+                            "fbShareWindow",
+                            "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,width=600,height=400"
+                          );
+                        }}
+                      >
                         <i className="ti-facebook"></i>
-                      </Link>
+                      </a>
                     </li>
-                    <li>
+
+                    {/* <li>
                       <Link to="/">
                         <i className="ti-twitter-alt"></i>
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
-                      <Link to="/">
+                      <a
+                        href="https://www.linkedin.com/in/abdullah-tahir-dev/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Visit my LinkedIn profile (opens in a new tab)"
+                      >
                         <i className="ti-linkedin"></i>
-                      </Link>
+                      </a>
                     </li>
                     <li>
+                      <a
+                        href="https://medium.com/@aj1762919"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Medium profile"
+                      >
+                        <FontAwesomeIcon icon={faMedium} />
+                      </a>
+                    </li>
+
+                    {/* <li>
                       <Link to="/">
                         <i className="ti-pinterest"></i>
                       </Link>
-                    </li>
-                    <li>
-                      <Link to="/">
-                        <i className="ti-vimeo-alt"></i>
-                      </Link>
-                    </li>
+                    </li> */}
+                    {/* <li>
+                        <Link to="/">
+                          <i className="ti-vimeo-alt"></i>
+                        </Link>
+                      </li> */}
                   </ul>
                 </div>
               </div>

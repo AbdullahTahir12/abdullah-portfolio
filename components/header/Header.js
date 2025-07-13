@@ -40,19 +40,19 @@ const Header = (props) => {
                   <ul className="nav navbar-nav mb-2 mb-lg-0">
                     <li className="menu-item-has-children">
                       <a href="/">Home</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink className="active" href="/">
-                            Home Style 1
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink href="/home2">Home Style 2</NavLink>
-                        </li>
-                        <li>
-                          <NavLink href="/home3">Home Style 3</NavLink>
-                        </li>
-                      </ul>
+                        {/* <ul className="sub-menu">
+                          <li>
+                            <NavLink className="active" href="/">
+                              Home Style 1222
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink href="/home2">Home Style 2</NavLink>
+                          </li>
+                          <li>
+                            <NavLink href="/home3">Home Style 3</NavLink>
+                          </li>
+                        </ul> */}
                     </li>
                     <li>
                       <Link
