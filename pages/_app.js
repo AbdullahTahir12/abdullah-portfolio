@@ -27,16 +27,16 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           property="og:image"
-          content="https://abdullah-portfolio-du9e.vercel.app/abd-banner.png"
+          content="https://abdullah-tahir-portfolio.vercel.app/abd-banner.png"
         />
         <meta
           property="og:image:secure_url"
-          content="https://abdullah-portfolio-du9e.vercel.app/abd-banner.png"
+          content="https://abdullah-tahir-portfolio.vercel.app/abd-banner.png"
         />
         <meta property="og:image:type" content="image/png" />
         <meta
           name="twitter:image"
-          content="https://abdullah-portfolio-du9e.vercel.app/abd-banner.png"
+          content="https://abdullah-tahir-portfolio.vercel.app/abd-banner.png"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
