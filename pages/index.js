@@ -18,14 +18,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Abdullah | Full‑Stack Web Developer</title>
-        <meta
-          name="description"
-          content="Crafting responsive, secure web & mobile apps with React.js, Node.js, Next.js."
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph / Twitter Preview */}
         <meta
           property="og:title"
-          content="Abdullah | Full‑Stack Web Developer"
+          content="Abdullah Tahir | MERN Stack Developer"
         />
         <meta
           property="og:description"
@@ -33,16 +32,28 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://abdullah-portfolio-du9e.vercel.app/og-image.png"
+          content="https://abdullah-portfolio-du9e.vercel.app/abd-banner.png"
         />
         <meta
-          property="og:url"
-          content="https://abdullah-portfolio-du9e.vercel.app/"
+          property="og:image:secure_url"
+          content="https://abdullah-portfolio-du9e.vercel.app/abd-banner.png"
         />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:image:type" content="image/png" />
         <meta
           name="twitter:image"
-          content="https://abdullah-portfolio-du9e.vercel.app/og-image.png"
+          content="https://abdullah-portfolio-du9e.vercel.app/abd-banner.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Abdullah Tahir | MERN Stack Developer"
+        />
+        <meta
+          name="twitter:description"
+          content="Crafting responsive, secure web & mobile apps with React.js, Node.js, Next.js."
         />
       </Head>
 
