@@ -46,12 +46,6 @@ const Footer = (props) => {
                         <i className="ti-facebook"></i>
                       </a>
                     </li>
-
-                    {/* <li>
-                      <Link to="/">
-                        <i className="ti-twitter-alt"></i>
-                      </Link>
-                    </li> */}
                     <li>
                       <a
                         href="https://www.linkedin.com/in/abdullah-tahir-dev/"
@@ -72,17 +66,6 @@ const Footer = (props) => {
                         <FontAwesomeIcon icon={faMedium} />
                       </a>
                     </li>
-
-                    {/* <li>
-                      <Link to="/">
-                        <i className="ti-pinterest"></i>
-                      </Link>
-                    </li> */}
-                    {/* <li>
-                        <Link to="/">
-                          <i className="ti-vimeo-alt"></i>
-                        </Link>
-                      </li> */}
                   </ul>
                 </div>
               </div>
