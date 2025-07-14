@@ -1,5 +1,4 @@
 import React from "react";
-import AnimatedNumbers from "react-animate-numbers";
 
 const About = (props) => {
   return (
@@ -9,12 +8,7 @@ const About = (props) => {
           <div className="col-lg-5 col-md-12 col-sm-12">
             <div className="wpo-about-exprience-wrap">
               <div className="wpo-about-exprience">
-                <h2>
-                  <AnimatedNumbers
-                    value={1.5}
-                    style={{ fontSize: "2rem", fontWeight: "bold" }}
-                  />
-                </h2>
+                <h2>1.5</h2>
                 <span>Years of Experience</span>
               </div>
               {/* <div className="client">
@@ -42,7 +36,7 @@ const About = (props) => {
                     <h3>
                       <span data-count="70">70</span>%
                     </h3>
-                    <p>NextJs</p>
+                    <p>NextJs</p> 
                   </div>
                 </div>
                 <div className="grid">
